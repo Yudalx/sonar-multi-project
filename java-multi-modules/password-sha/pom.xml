@@ -16,6 +16,7 @@
 
     <properties>
         <commos.codec.version>1.11</commos.codec.version>
+        <sonar.coverage.jacoco.xmlReportPaths>${project.basedir}/../java-multi-modules/password-sha/target/site/jacoco-aggregate/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
     </properties>
 
     <dependencies>

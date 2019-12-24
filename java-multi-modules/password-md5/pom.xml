@@ -9,6 +9,10 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
+    <properties>
+        <sonar.coverage.jacoco.xmlReportPaths>${project.basedir}/../java-multi-modules/password-md5/target/site/jacoco-aggregate/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
+    </properties>
+
     <!-- password-md5 info -->
     <groupId>com.mkyong.password</groupId>
     <artifactId>password-md5</artifactId>
