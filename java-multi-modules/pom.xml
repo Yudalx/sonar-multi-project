@@ -16,6 +16,9 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <junit.version>5.3.1</junit.version>
         <spring.version>5.1.0.RELEASE</spring.version>
+        <sonar.project.key>multi</sonar.project.key>
+        <sonar.host.url>http://35.228.158.214</sonar.host.url>
+
     </properties>
 
     <modules>
